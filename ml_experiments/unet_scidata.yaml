@@ -1,0 +1,22 @@
+# @package _global_
+
+# to execute this experiment run:
+# python train.py experiment=example
+
+defaults:
+  - override /data: seasfire_spatial
+  - override /model: seasfire_unet
+  - override /callbacks: default
+  - override /trainer: default
+
+
+positional_vars : []
+
+data:
+  local_input_shape: ${local_input_shape}
+  input_vars: ${input_vars}
+
+model:
+  input_vars: ${input_vars}
+# all parameters below will be merged with parameters from default configurations set above
+# this allows you to overwrite only specified parameters
