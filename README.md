@@ -8,9 +8,7 @@ Folder: /visual_inspection
 
 Description: Coming soon! This section focuses on visually inspecting SeasFire data. Notebooks and scripts within this folder guide the user through visualization techniques, enabling a comprehensive understanding of the multivariate Earth system datacube for wildfire dynamics. The notebook is used to generate the results of figure 5.
 
-- Causality
-  
-Folder: /causality
+- Causality  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SeasFire/seasfire-datacube-paper/main?labpath=causality%2FCausality.ipynb)
 
 Description: Explore causality relationships within the SeasFire dataset. In this notebook, we utilize the PCMCI algorithm  to identify potential causal factors influencing wildfire dynamics as well as their lagged effects. The notebook is used to generate the results of figure 6. The illustration of figure 6 is done by the Makie.jl library.
 
