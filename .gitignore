@@ -1,0 +1,3 @@
+*.nc
+*.zarr
+settings.json
